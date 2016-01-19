@@ -1,0 +1,23 @@
+{
+    "name": "mpaleo/scaffolder-extension",
+    "description": "Laravel scaffolder extension example",
+    "license": "MIT",
+    "keywords": [
+        "laravel",
+        "scaffold"
+    ],
+    "authors": [
+        {
+            "name": "Michael Paleo",
+            "email": "github@michaelpaleo.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.9"
+    },
+    "autoload": {
+        "psr-4": {
+            "ScaffolderExtension\\": "src/ScaffolderExtension/"
+        }
+    }
+}
