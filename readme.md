@@ -1,6 +1,8 @@
 # Laravel scaffolder extension example 
 [![Software License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](LICENSE)
 
+This is a package for [mpaleo/scaffolder](https://github.com/mpaleo/scaffolder)
+
 ## Installation
 
 1. Add the package to your composer.json
