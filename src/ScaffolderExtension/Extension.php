@@ -28,7 +28,7 @@ class Extension implements ScaffolderExtensionInterface
 
     public function runAfterCreateViewIsCompiled($compiledStub, $modelData, $scaffolderConfig)
     {
-        return str_replace('Create', 'Lele', $compiledStub);
+        return $compiledStub;
     }
 
     public function runAfterEditViewIsCompiler($compiledStub, $modelData, $scaffolderConfig)
